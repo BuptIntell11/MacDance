@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--toolBar:返回到主页面-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MacDance"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!--搜索栏-->
+
+    <!--滚动推荐-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="爵士"
+            android:background="@drawable/photo"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="爵士"
+            android:background="@drawable/photo"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+
+            android:layout_weight="1"
+            android:text="爵士"
+            android:background="@drawable/photo"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="爵士"
+            android:background="@drawable/photo"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+
+            android:layout_weight="1"
+            android:text="爵士"
+            android:background="@drawable/photo"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大家都在看"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="精彩进行时"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--底部导航栏-->
+    <LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_channel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="22"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="22"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_better"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="22"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/photo"
+
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="22"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
